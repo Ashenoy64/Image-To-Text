@@ -2,8 +2,9 @@ import cv2
 import pytesseract
 
 path=input("Enter the path of the image:")
+path_tesseract=input("Enter path to tesseract.exe")
 
-path_tesseract=r'Tesseract-OCR/tesseract.exe'
+#path_tesseract=r'Tesseract-OCR/tesseract.exe'
 
 image=cv2.imread(path)
 
